@@ -14,7 +14,7 @@ env:
   global:
    # The next declaration is the encrypted COVERITY_SCAN_TOKEN, created
    #   via the "travis encrypt" command using the project repo's public key
-    - secure: "C7smbw+mWbRYws6rKUoeGZRbK4feg+Xnfp0Owk8tLepMIGCUw/SLxPhe0rXNl1c09ABQaX9pCtXxFtz/nnfCuO55Eqdi71Il/+X6PYwMgaBOnMVWdywRgThUp7Hu2i/rK0b4ZYEQURj0HdOfIOjWY4L7v/CrnOPprwLjvrmg8CZOku2ytVmxULIrWYumbfV2KgJZs/hQaPlhcUR/eSYNVl0tz/aPEXGfUfFekuxmLWDP/z3vrIDW/hPmmWEelJVx3RTKDB+BXuNfaVfgzvoU4IV/mIG9l3FGybnQVviGZv03rJJUpaWTIsf+/CqUd6qDaesnCoiRcbkO8PwOT30GzMiPu7usu1veWhhVp9yb32nzfqITeQvzPqla74Hzjuzmyhqbi+Y1kD9rJkfS/300Z1qgb5BFjU0eblW6REuWNw4AvqgcbbqWAS5IBLVLTw+lBZNjWMl5pPlRBh3cNWKi7y1Ak2PeLgqTy03v9nlieo18PCbBFFRk2qpEiJ2bud7ptl2L/gBURvTRA6jNq5wAkCdr8xNnmeaKtbJyGuB5F9cRaz7LBRbZ36pgdO1it1Rq4kg57ooJB9cNn/ODKzZ51KPIPxkU4ODI8bvhGGZwmMKzv1kFHiAAelKaNb5TqoD4fmLp/4ukRAJo3m9QTKsWyw4NYPuGgFkT5tRucNhBSAs="
+    - secure: "c9JQDX7c/RAQYUuaW9bGsORRFLFWpiq/C00TGMCHOZUkuI2VUNqh2H8c99QIuJHHXWoVau0727wGRGBtcg3kAeJMsnnkelbGc9Ca8Uu6MhQRN3VqlvcSSCuz3R6JNxmQWaWbSxEwyHsljzMwubeevMkztVFXXyj6VImKjkrwFRgJGf4MheZ5yi0IVQah1rZ8spqktMOYCJiGRODJCK8IhrfUYHqwv31CYO3GGf6Iq4HbArAMwfNovqSWxAwJ5oHhEFEb+gsrGIPG5+nRxs1Sb9pDJtqLHajQq85TVGK8qUaKi7nzcpbw9qegomd7iMadq7518ZSXJN/5cY4A1t4fbZdLy8mU5IdAz4P4SqLkO7SSjmyLxD5iBYoHftXZ6/H+b/l6pUXskCrj4YZBdiyorD6TkKfw4+VkLaPwjyRHFY2j8rxUhGcptAoQZDIYsTL95WnCj/njPbipBvZ9NtNu7qQOEDwrmCCLElfFqV6m1bKVwzp/iOe/B2C9GUVJ+QQUsinb22YWQ44vNWtYxU2fRy56AjfBiiufkJA5VVFZ36BxeKsSaMkSKvZDvbEYRyHznhpGWVDZKiB3+xR3cukhcvC7X+Aj90vNh/PxGFU7bums5uZdwM8gF5fGJ0rAXYLqKPaJknA1OLSr5xFA6FBoByBaHxdAns54cNBqor2Mxks="
 
 before_install:
     - echo -n | openssl s_client -connect scan.coverity.com:443 | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' | sudo tee -a /etc/ssl/certs/ca-
@@ -31,7 +31,7 @@ addons:
     project:
       name: "toniz/async-or-coroutine-fastcgi"
       description: "Build submitted via Travis CI"
-    notification_email: toniz7960@gmail.com
+    notification_email: liuchao412@foxmail.com
     build_command_prepend: "scons -c"
     build_command: "scons"
     branch_pattern: master

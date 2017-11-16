@@ -1,5 +1,6 @@
 # async-or-coroutine-fastcgi
-[![coverity](https://scan.coverity.com/projects/14345/badge.svg)](https://scan.coverity.com/projects/toniz-async-or-coroutine-fastcgi)
+[![Build Status](https://travis-ci.org/liuchao412/async-or-coroutine-fastcgi.svg?branch=master)](https://travis-ci.org/liuchao412/async-or-coroutine-fastcgi)
+[![coverity](https://scan.coverity.com/projects/14355/badge.svg)](https://scan.coverity.com/projects/liuchao412-async-or-coroutine-fastcgi)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/mit-license.php)
 [![platform](https://img.shields.io/badge/platform-linux-brightgreen.svg)](/README.md)  
 
