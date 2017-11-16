@@ -29,7 +29,7 @@ script: if [ "${COVERITY_SCAN_BRANCH}" != 1 ]; then make ; fi
 addons:
   coverity_scan:
     project:
-      name: "toniz/async-or-coroutine-fastcgi"
+      name: "liuchao412/async-or-coroutine-fastcgi"
       description: "Build submitted via Travis CI"
     notification_email: liuchao412@foxmail.com
     build_command_prepend: "scons -c"
